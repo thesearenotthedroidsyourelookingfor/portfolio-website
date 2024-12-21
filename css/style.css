@@ -3,7 +3,23 @@ Colors used:
 Primary Color (Blue): #d9f6ff;
 Secondary Color (Green): #f1e1dd;
 */
+
 body {
     background-color: #fafafa;
     font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: regular;
+    color: #000000;
+}
+
+h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
 }
