@@ -4,7 +4,8 @@ Background Color (gray): #fafafa
 Primary Color (Blue): #d9f6ff;
 Secondary Color (Green): #f1e1dd;
 Hyperlink Color (Dark Blue): #007599
-Hyperlink Visited Color (Lighter Blue): #0379ce
+Hyperlink Active Color (Lighter Blue): #0379ce
+Hyperlink Visited Color (Dark Orange): #cb4625
 */
 
 body {
@@ -42,11 +43,12 @@ a {
 }
 
 a:visited {
-    color: #0379ce;
+    color: #cb4625;
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
     color: #007599;
     text-decoration: underline;
 }
