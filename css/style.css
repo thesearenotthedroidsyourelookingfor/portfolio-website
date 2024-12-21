@@ -1,7 +1,10 @@
 /*
 Colors used:
+Background Color (gray): #fafafa
 Primary Color (Blue): #d9f6ff;
 Secondary Color (Green): #f1e1dd;
+Hyperlink Color (Dark Blue): #007599
+Hyperlink Visited Color (Lighter Blue): #0379ce
 */
 
 body {
@@ -32,3 +35,23 @@ p {
 img {
     width: 100%;
   }
+
+a {
+    color: #007599;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0379ce;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007599;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #0379ce;
+    text-decoration: none;
+}
