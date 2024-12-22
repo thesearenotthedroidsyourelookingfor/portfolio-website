@@ -2,7 +2,7 @@
 Colors used:
 Background Color (gray): #fafafa
 Primary Color (Blue): #d9f6ff;
-Secondary Color (Green): #f1e1dd;
+Secondary Color (Beige): #f1e1dd;
 Hyperlink Color (Dark Blue): #007599
 Hyperlink Active Color (Lighter Blue): #0379ce
 Hyperlink Visited Color (Dark Orange): #cb4625
@@ -56,4 +56,20 @@ a:focus {
 a:active {
     color: #0379ce;
     text-decoration: none;
+}
+
+.button {
+    display: inline-block;
+    background-color: #d9f6ff;
+    color: #000000;
+    font-weight: 500;
+    padding: 12px;
+    border-radius: 15px;
+    border: 2px solid #000000;
+    transition: .2s background-color;
+}
+
+.button:hover {
+    background-color: #f1e1dd;
+    color: #000000
 }
