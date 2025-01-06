@@ -98,3 +98,8 @@ a:active {
     display: inline-block;
     max-width: 50px;
 }
+
+.footerimg{
+    display: inline-block;
+    max-width: 30px;
+}
