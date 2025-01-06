@@ -93,3 +93,8 @@ a:active {
     background-color: #f1e1dd;
     text-decoration: underline;
 }
+
+.logo{
+    display: inline-block;
+    max-width: 50px;
+}
