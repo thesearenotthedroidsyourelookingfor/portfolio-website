@@ -37,6 +37,16 @@ img {
     width: 100%;
   }
 
+header {
+    background-color: #d9f6ff;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+    border-bottom: 2px solid #007599;
+  }
+
 a {
     color: #007599;
     text-decoration: none;
