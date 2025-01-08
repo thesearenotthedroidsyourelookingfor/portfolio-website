@@ -37,6 +37,18 @@ img {
     width: 100%;
   }
 
+.workimgleft {
+    float: left;
+    max-width: 200px;
+    margin: 10px;
+}
+
+.workimgright {
+    float: right;
+    max-width: 200px;
+    margin: 10px;
+}
+
 header {
     background-color: #d9f6ff;
     padding-top: 10px;
@@ -45,6 +57,7 @@ header {
     padding-left: 10px;
     margin: 0 auto;
     border-bottom: 2px solid #007599;
+    position: fixed;
   }
 
 a {
