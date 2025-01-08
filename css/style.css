@@ -56,8 +56,10 @@ header {
     padding-bottom: 10px;
     padding-left: 10px;
     margin: 0 auto;
+    width: 100vw;
+    height: 30%;
     border-bottom: 2px solid #007599;
-    position: fixed;
+    position: static;
   }
 
 a {
@@ -124,5 +126,5 @@ a:active {
 
 .footerimg{
     display: inline-block;
-    max-width: 30px;
+    max-width: 10%;
 }
