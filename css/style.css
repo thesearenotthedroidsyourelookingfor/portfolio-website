@@ -133,3 +133,10 @@ a:active {
     display: inline-block;
     max-width: 10%;
 }
+
+/* Layout styling */
+
+.container {
+    padding: 0 15px;
+  }
+
