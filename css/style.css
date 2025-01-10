@@ -128,7 +128,7 @@ a:active {
 
 .button {
     display: inline-block;
-    background-color: #d9f6ff;
+    background-color: #d9f6ff00;
     color: #000000;
     padding: 12px;
     border-radius: 15px;
@@ -137,12 +137,12 @@ a:active {
 }
 
 .button:hover {
-    background-color: #f1e1dd;
+    background-color: #e9e9e9;
     color: #000000
 }
 
 .button:active {
-    background-color: #cb4625;
+    background-color: #f1e1dd;
     text-decoration:underline;
 }
 
