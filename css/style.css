@@ -173,6 +173,14 @@ a:active {
     max-width: 10%;
 }
 
+.container > #footer > ul {
+    display: inline-block;
+    max-width: 100%;
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+}
+
 /* Layout styling */
 
 .container {
@@ -196,3 +204,4 @@ a:active {
     display: inline-block;
     width: 100%;
 }
+
