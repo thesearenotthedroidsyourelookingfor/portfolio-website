@@ -173,12 +173,16 @@ a:active {
     max-width: 10%;
 }
 
-.container > #footer > ul {
+#footer ul {
     display: inline-block;
-    max-width: 100%;
+    width: 100%;
     list-style-type: none;
     padding: 10px;
     text-align: center;
+}
+
+#footer li {
+    display: inline-block;
 }
 
 /* Layout styling */
