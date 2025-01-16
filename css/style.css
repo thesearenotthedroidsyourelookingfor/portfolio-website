@@ -170,6 +170,7 @@ a:active {
 
 .footerimg{
     display: inline-block;
+    max-width: 25px;
 }
 
 #footer ul {
