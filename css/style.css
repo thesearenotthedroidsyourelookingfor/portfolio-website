@@ -207,5 +207,50 @@ a:active {
     padding: 20px 0;
     display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
+#hero span {
+    display: block;
+  }
+
+/*Media Queries*/
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+    header {
+        text-align: unset;
+        padding: 20px 0 15px;
+    }
+    
+
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+    p {
+        font-size: 22px;
+    }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+    p{
+        font-size: 26px;
+    }
+}
