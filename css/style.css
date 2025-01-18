@@ -212,7 +212,13 @@ a:active {
 
 #hero span {
     display: block;
-  }
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 /*Media Queries*/
 
@@ -235,6 +241,15 @@ Medium devices (640px and larger)
     p {
         font-size: 18px;
     }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .colu-md-6 {
+        width: 50%;
+        float: right;
+    }
 }
 
 /* ==============================
@@ -254,3 +269,9 @@ X-large devices (1440px or larger)
         font-size: 26px;
     }
 }
+
+[class*="col-"] {
+    float: left;
+  }
+
+
