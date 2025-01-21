@@ -226,6 +226,10 @@ a:active {
     display: table;
 }
 
+@keyframes color-change {
+    from {fill: #edc655;}
+    to {fill: #f76414;}
+  }
 /*Media Queries*/
 
 /* ==============================
