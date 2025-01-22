@@ -139,7 +139,7 @@ a:active {
     padding: 12px;
     border-radius: 15px;
     border: 2px solid #000000;
-    transition: .2s opacity;
+    transition: all .2s ease;
 }
 
 .button:hover {
@@ -297,6 +297,11 @@ Medium devices (640px and larger)
         float: right;
         padding: 0px, 10px, 0px, 10px;
     }
+
+    [class*="col-"] {
+        float: left;
+        padding: 0, 10px, 0, 10px;
+    }
 }
 
 /* ==============================
@@ -330,10 +335,5 @@ X-large devices (1440px or larger)
         font-size: 26px;
     }
 }
-
-[class*="col-"] {
-    float: left;
-    padding: 0, 10px, 0, 10px;
-  }
 
 
