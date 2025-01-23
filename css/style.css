@@ -329,6 +329,11 @@ Large devices (1024px or larger)
         width: 41.65%;
     }
 
+    .col-lg-12 {
+        width: 100%;
+        padding-left: 10px;
+    }
+
     p {
         font-size: 22px;
     }
