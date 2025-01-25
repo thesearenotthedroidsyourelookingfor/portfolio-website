@@ -63,7 +63,7 @@ header {
     background-color: #d9f6ff;
     padding-top: 10px;
     padding-right: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 4px;
     padding-left: 10px;
     margin: 0 auto;
     width: 100vw;
@@ -71,7 +71,6 @@ header {
     max-width: 1200px;
     border-bottom: 2px solid #007599;
     position: relative;
-    text-align: center;
     width: [object Object]px; 
 	height: [object Object]px; 
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1)  ; 
@@ -80,14 +79,9 @@ header {
 }
 
 nav > ul {
-    display: inline-block;
-    max-width: 100%;
     list-style-type: none;
     padding: 0;
-}
-
-nav > ul > li {
-    display: inline-block;
+    margin: 0;
 }
 
 nav > ul > li > a {
@@ -226,6 +220,22 @@ a:active {
     display: table;
 }
 
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
+
+.navtoggle li .icon {
+    position: absolute;
+    padding-right: 0;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+}
+
 /*Animation*/
 
 @keyframes color-change {
@@ -283,6 +293,22 @@ Medium devices (640px and larger)
         float: right;
         margin-top: 4px;
     }
+
+    nav > ul > li {
+        display: inline-block;
+    }
+
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+
+    .navtoggle li:last-child {
+        display: none;
+    }
+
+    nav > ul {
+        margin: 1em 0;
+      }
 
     p {
         font-size: 18px;
