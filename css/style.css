@@ -68,7 +68,7 @@ header {
     margin: 0 auto;
     width: 100vw;
     height: 25%;
-    max-width: 1200px;
+    max-width: 100%;
     border-bottom: 2px solid #007599;
     position: relative;
     width: [object Object]px; 
@@ -247,6 +247,7 @@ a:active {
     display: block;
     padding: 12px 0;
     border-top: 1px solid #000000;
+    text-align: center;
   }
   
   .navtoggle.responsive li:last-child  {
