@@ -240,6 +240,18 @@ a:active {
     display: block;
 }
 
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+  }
+  .navtoggle.responsive li  {
+    display: block;
+    padding: 12px 0;
+    border-top: 1px solid #000000;
+  }
+  
+  .navtoggle.responsive li:last-child  {
+    padding: 0 0 12px;
+  }
 /*Animation*/
 
 @keyframes color-change {
