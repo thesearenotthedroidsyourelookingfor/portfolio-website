@@ -236,6 +236,10 @@ a:active {
     font-size: 20px;
 }
 
+.navtoggle.responsive li  {
+    display: block;
+}
+
 /*Animation*/
 
 @keyframes color-change {
