@@ -384,10 +384,10 @@ Large devices (1024px or larger)
         font-size: 22px;
     }
 
-    text {
+    body {
         font-size: 22px;
     }
-    
+
     .container {
         max-width: 1200px;
         margin-left: auto;
