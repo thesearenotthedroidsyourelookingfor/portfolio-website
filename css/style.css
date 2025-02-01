@@ -21,8 +21,14 @@ body {
     color: #000000;
 }
 
+.title {
+    text-align: center;
+    margin: 18px 0 18px 0;
+    font-size: 1.4em;
+}
+
 h1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.5;
 }
 
@@ -129,7 +135,7 @@ a:active {
     display: inline-block;
     background-color: #d9f6ff00;
     color: #000000;
-    padding: 12px;
+    padding: 12px 24px 12px 24px;
     border-radius: 15px;
     border: 2px solid #000000;
     transition: all .2s ease;
@@ -167,6 +173,13 @@ a:active {
     text-align: center;
 }
 
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
+    background-size: 80%;
+}
+
 .footerimg{
     display: inline-block;
     max-width: 25px;
@@ -190,6 +203,10 @@ a:active {
     padding: 0 15px;
 }
 
+svg {
+    margin: 0 4px 0 4px;
+}
+
 #work .row {
     margin: 25px 0;
     padding-bottom: 25px;
@@ -204,7 +221,7 @@ a:active {
 #hero {
     background-color: #f1e1dd;
     padding: 20px 0;
-    display: inline-block;
+    /*display: inline-block;*/
     width: 100%;
     text-align: center;
 }
@@ -326,10 +343,17 @@ Medium devices (640px and larger)
         margin: 1em 0;
       }
 
+    h1 {
+        font-size: 21px;
+    }
+
     p {
         font-size: 18px;
     }
 
+    button {
+        padding: 10px 18px 10px 18px;
+    }
     [class*="col-"] {
         float: left;
         padding: 0, 10px, 0, 10px;
@@ -377,6 +401,14 @@ Large devices (1024px or larger)
     }
 
     p {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    body {
         font-size: 22px;
     }
 
