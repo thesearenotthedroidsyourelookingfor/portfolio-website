@@ -21,8 +21,14 @@ body {
     color: #000000;
 }
 
+.title {
+    text-align: center;
+    margin: 18px 0 18px 0;
+    font-size: 1.4em;
+}
+
 h1 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.5;
 }
 
