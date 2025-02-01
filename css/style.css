@@ -173,6 +173,13 @@ a:active {
     text-align: center;
 }
 
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right;
+    background-size: 80%;
+}
+
 .footerimg{
     display: inline-block;
     max-width: 25px;
@@ -194,6 +201,10 @@ a:active {
 
 .container {
     padding: 0 15px;
+}
+
+svg {
+    margin: 0 4px 0 4px;
 }
 
 #work .row {
